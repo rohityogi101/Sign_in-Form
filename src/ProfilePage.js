@@ -29,7 +29,7 @@ const ProfilePage = () => {
         Welcome, {user.firstName} {user.lastName}!
       </h3>
       <button type="" className="">
-        <Link to={"/"}>Logout</Link>
+        <Link style={{ color: "white" }} to={"/"}>Logout</Link>
       </button>
     </>
   );
